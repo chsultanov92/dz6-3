@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1{
+    margin: 0;
+}
+
+p{
+    display: flex;
+
+}
+
+#filterInput{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}  
+#countryContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+}
+.flag{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
